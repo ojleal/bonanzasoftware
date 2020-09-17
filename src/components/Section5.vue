@@ -3,7 +3,6 @@
     <v-card
       outlined
       tile
-      width="1200"
       class="mx-auto mt-5 align-items-center"
       style="background-color: #ffffff;"
     >
@@ -17,25 +16,26 @@
           </div>
         </v-col>
       </v-row>
-      <v-row align-content="center">
-        <v-col class="mx-auto text-center" cols="12">
-          <v-icon color="#d97c30" x-large>fas fa-minus</v-icon>
+      <v-row align="center" justify="center" class="pb-4">
+        <v-col cols="1">
+          <v-divider style="border-color: #d97c30; border: 1px solid #d97c30"></v-divider>
         </v-col>
       </v-row>
-      <v-row>
-        <v-col cols="8" class="my-auto">
+      <v-row style="border-top: 1px solid #e1e1e1">
+        <v-col cols="7" class="my-auto">
           <v-img
             src="../assets/schaufenster.png"
             max-width="300px"
             max-height="200px"
-            class="mx-auto"
+            style="margin-left: 400px;"
           ></v-img>
         </v-col>
-        <v-col cols="4">
+        <v-col cols="5">
           <v-card
             outlined
             tile
-            class="mx-auto mt-5 align-items-center"
+            width="440"
+            class="mt-5 align-items-left"
             style="background-color: #ffffff;"
           >
             <v-list-item tile>

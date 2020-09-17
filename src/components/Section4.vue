@@ -7,6 +7,18 @@
       class="mx-auto mt-5 align-items-center"
       style="background-color: #f2f2f2;"
     >
+      <v-row align="center" justify="center" class="pt-4 pb-2">
+        <h2
+          style="color: #d97c30 !important; font-size: 30px !important; font-weight: 700 !important;"
+        >
+          <strong>UNSERE OFFICE-SYSTEME</strong>
+        </h2>
+      </v-row>
+      <v-row align="center" justify="center" class="pb-4">
+        <v-col cols="1">
+          <v-divider style="border-color: #d97c30; border: 1px solid #d97c30"></v-divider>
+        </v-col>
+      </v-row>
       <v-row>
         <v-col cols="3">
           <v-card
@@ -18,7 +30,7 @@
             <v-list-item three-line>
               <v-list-item-content>
                 <v-divider class="pt-5 divisor" light></v-divider>
-                <div class="mb-1 text-center encabezado">LITTLE JOE</div>
+                <div class="mb-1 text-center encabezado" style="color: #d97c30 !important;">LITTLE JOE</div>
                 <v-divider class="my-4 divisor" light></v-divider>
                 <v-img
                   src="../assets/little-joe.png"
@@ -61,7 +73,7 @@
             <v-list-item three-line>
               <v-list-item-content>
                 <v-divider class="pt-5 divisor" light></v-divider>
-                <div class="mb-1 text-center encabezado">HOSS</div>
+                <div class="mb-1 text-center encabezado" style="color: #009c41 !important;">HOSS</div>
                 <v-divider class="my-4 divisor" light></v-divider>
                 <v-img src="../assets/hoss.png" aspect-ratio="1" max-width="200px" class="mx-auto"></v-img>
                 <v-divider class="my-4 divisor" light></v-divider>
@@ -99,7 +111,7 @@
             <v-list-item three-line>
               <v-list-item-content>
                 <v-divider class="pt-5 divisor" light></v-divider>
-                <div class="mb-1 text-center encabezado">ADAM</div>
+                <div class="mb-1 text-center encabezado" style="color: #1f7891 !important;">ADAM</div>
                 <v-divider class="my-4 divisor" light></v-divider>
                 <v-img src="../assets/adam.png" aspect-ratio="1" max-width="200px" class="mx-auto"></v-img>
                 <v-divider class="my-4 divisor" light></v-divider>
@@ -137,7 +149,7 @@
             <v-list-item three-line>
               <v-list-item-content>
                 <v-divider class="pt-5 divisor" light></v-divider>
-                <div class="mb-1 text-center encabezado">BEN</div>
+                <div class="mb-1 text-center encabezado" style="color: #662575 !important;">BEN</div>
                 <v-divider class="my-4 divisor" light></v-divider>
                 <v-img src="../assets/ben.png" aspect-ratio="1" max-width="200px" class="mx-auto"></v-img>
                 <v-divider class="my-4 divisor" light></v-divider>
@@ -174,9 +186,9 @@
                 <v-divider class="pt-5 divisor3" light></v-divider>
                 <div
                   class="mb-1 text-center encabezado"
-                  style="letter-spacing: 6px !important; color: #d97c30 !important; font-family: 'Open Sans' !important; font-weight:700 !important; font-size: 23px !important"
+                  style="color: #d97c30 !important; font-family: 'Open Sans' !important; font-weight:700 !important; font-size: 23px !important"
                 >UNSER TRAFFICS CRS</div>
-                <v-divider class="my-4 divisor3" light></v-divider>
+                <v-divider class="my-2 divisor3" light></v-divider>
                 <v-row align="center" justify="center">
                   <v-icon>fas fa-minus</v-icon>
                   <div class="mx-1"></div>
@@ -185,20 +197,24 @@
                   <v-icon>fas fa-minus</v-icon>
                   <div class="mx-1"></div>
                 </v-row>
-                <v-divider class="my-4 divisor3" light></v-divider>
+                <v-divider class="my-2 divisor3" light></v-divider>
                 <div class="mx-auto text-center">
                   <span
                     class="contenido"
-                    style="color: #222222 !important;"
+                    style="color: #222222 !important; font-size: 18px !important"
                   >In all unseren Office-Systemen ist das Traffics CRS System kostenfrei integriert!</span>
                 </div>
               </v-list-item-content>
             </v-list-item>
             <v-divider class="my-2 divisor3" light></v-divider>
             <v-card-actions>
-              <v-btn class="mx-auto btn_5" text style="min-width: 155px !important">Mehr Informationen</v-btn>
+              <v-btn
+                class="mx-auto btn_5"
+                text
+                style="min-width: 155px !important"
+              >Mehr Informationen</v-btn>
             </v-card-actions>
-            <v-divider class="my-4 divisor3" light></v-divider>
+            <v-divider class="my-2 divisor3" light></v-divider>
           </v-card>
         </v-col>
       </v-row>
