@@ -320,4 +320,9 @@ a.menu-footer:hover {
   font-size: 80px !important;
   color: #ffffff !important;
 }
+
+.p1 strong  {
+  color: #d97c30;
+  line-height: 1.5em;
+}
 </style>
